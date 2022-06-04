@@ -1,0 +1,492 @@
+body{
+    font-size: 15px;
+    /* line-height: 4.5; */
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+height: 1200px;
+
+}
+
+.a-col{
+    text-decoration: none;
+    /* color: rgb(51, 49, 49); */
+    font-weight: 500;
+    color: #b5b5b5;
+}
+.a-col:hover{
+     color: rgba(34,54,69,.7);
+    
+}
+.shama-color{
+    color: red;
+}
+
+ul{
+    list-style-type:none ;
+}
+.navbar{
+    background: white;
+    padding:3rem 2rem ;
+    height: 0rem     ;
+    /* min-height: 12vh    ; */
+}
+.navbar .navbar-brand a{
+    padding:1rem 0rem ;
+    /* display: block; */
+    text-decoration: none;
+}
+
+.navbar-brand img{
+    /* font-size: 2.5rem;
+    color: #8a8a8a; */
+    /* border-radius: 100px; */
+    width: 175px;
+    margin-top: -95px;
+    margin-left: -80px;
+    border-radius: 200px;
+    position: absolute;
+}
+.navbar-toggler{
+    background-color: rgb(49, 48, 48);
+    border: none;
+
+    padding: 10px 6px;
+    outline: none;
+
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 18px;
+    margin-left:4px ;
+
+}
+.navbar-toggler span + span +span{
+    margin-top: 4px;
+    width: 14px;
+    margin-left:8px ;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1.2rem 0.8rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+/* .navbar-expand-lg .navbar-nav .nav-link :hover{
+    border-top:4px solid #b5b5b5 ;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    
+} */
+
+
+.card{
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    height: 20%;
+    /* position: relative; */
+
+ }
+.card-body{
+     background-image: url(./images/Lawn.webp) 50% 50% no-repeat;
+     background-size: cover;
+ }
+ 
+    @media (max-width: 767px){
+        .card-body {
+            background-image: url(./images/lawan.jpg) 50% 50% no-repeat;
+
+        background-size: cover;
+        background-position: left center !important;
+    }
+}
+.card-body{
+     background: url(./images/Lawn.webp) 50% 50% no-repeat;
+     background-size: cover;
+ }
+ 
+    @media (max-width: 767px){
+        .card-body {
+            background: url(./images/lawan.jpg) 50% 50% no-repeat;
+
+        background-size: cover;
+        /* background-position: left center !important; */
+    }
+}
+.d-flex{
+    padding: 12px;
+}
+.items{
+    
+    display: flex;
+    width: 100vw;
+    padding: 22px;
+    box-sizing: border-box;
+    margin: auto ;
+    /* background-color: red; */
+
+}
+/* .img1 h4{
+    padding: 12px;
+    margin: 0%;
+}  */
+/*.img2{
+    padding: 12px;
+} */
+.orangeImg{
+    /* padding: 22px; */
+    width: 90% ;
+    /* flex: 33%; */
+}
+.yellowImg{
+    /* padding: 22px; */
+
+    /* flex: 33%; */
+    width: 90% ;
+
+    /* padding: 22px; */
+    /* width: 60% ; */
+}
+.orange1Img:hover{
+
+    border: 1px solid black;
+}
+.yellowImg:hover{
+
+    border: 1px solid black;
+}
+.orangeImg:hover{
+
+    border: 1px solid black;
+}
+.orange1Img{
+    /* padding: 22px; */
+    width: 90% ;
+
+    /* flex: 33%; */
+    /* padding: 22px; */
+    /* width: 60% ; */
+}
+.content{
+    width: 50;
+    margin-left: 20px;
+    display: flex;
+   flex-direction: column;
+}
+
+.butn{
+    position:relative;
+    bottom:160px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid black  ;
+    background-color: #868686;
+    border-radius: 15px;
+    
+}
+i{
+    /* width: 200px; */
+    cursor: pointer;
+}
+@media (max-width: 1209px){
+  .butn {
+    font-size: small;
+    position: relative;
+    bottom: 200px;
+    /* background-size: cover; */
+}
+}
+@media (max-width: 735px){
+  .butn {
+    display: none;
+    /* background-size: cover; */
+}
+}
+.butn:hover{
+    border: 2px solid #838282  ;
+    background:transparent;
+    border-radius: 20px;
+
+}
+.body3{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 735px){
+    .body3 {
+        flex-direction: column;
+        /* box-sizing: content-box  ; */
+      /* display: none; */
+      /* background-size: cover; */
+  }
+  }
+.body4{
+    width: 100%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+@media (max-width: 735px){
+    .body4 {
+        flex-direction: column;
+        /* box-sizing: content-box  ; */
+      /* display: none; */
+      /* background-size: cover; */
+  }
+  }
+.pad{
+
+    /* width: 45%; */
+    padding: 10px;  
+}
+.img-fluid{
+    width: 100%;
+}
+.western-home img{
+    width:  100%;
+    /* flex: 100%   ; */
+}
+.western-items{
+    display: flex;
+    
+}
+.western-home{
+    flex: 80%;
+}
+.wesBtn{
+    width: 100%;
+    background-color: #e0dfdf;
+    border: 2px solid rgb(97, 97, 97);
+    transition: 0.3s;
+    font-size: large;
+    cursor: pointer;
+}
+.wesBtn:hover{
+    background:rgba(0, 0, 0, 0.616);
+    color: aliceblue;
+
+}
+
+.headings{
+    text-decoration: underline;
+    text-align:center;
+    transition: .3s;
+} 
+
+.headings:hover{
+    transform:translateY(-10px) ;
+} 
+
+
+
+/* Lawn 2022*/
+
+
+/*.img-fluid:hover{
+transform: translateY(-50);
+}  
+/* .right{
+    padding: 22px;
+    /* float: left; */
+
+/* } */
+
+
+
+
+/* .navImg{
+    justify-content: space-between;
+} */
+
+/* footer  */
+
+/* footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin: auto;
+    height:60px;   Height of the footer
+    background:#6cf;
+ }
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 50px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px;
+}
+.copyright{
+    text-align: center;
+}
+.menu{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+} */
+
+
+.carto{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #c9cbce;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%); 
+    z-index: 1;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.carto.active{
+    right: 0;
+}
+.cart-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    /* z-index: 1; */
+    margin-top: 15px;
+}
+
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    /* margin-top: 15px; */
+}
+
+.cart-img{
+    width: 120px;
+    height: 120px;
+    padding: 10px 10px 10px 0px;   
+    object-fit: contain;
+}
+.detail-box{
+    display: grid;
+    /* flex-direction: column; */
+    row-gap: 0.5rem;
+}
+
+.card-product-title{
+    font-size: 1rem;
+    text-transform: uppercase; 
+}
+
+.cart-price{
+    font-weight: bolder;
+}
+.cart-quantity{
+    /* border: 1px solid black; */
+    outline:none ;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cart-remove{
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;   
+}
+.total-price{
+    margin-left: 0.5rem;
+}
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border:none ;
+    background-color: #088178;
+    color: #c9cbce;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-buy:hover{
+    background-color: #04746c;
+}
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+}
+footer{
+    background-color: black;
+    color: #c9cbce;
+    padding:8px 22px ;
+    margin-top:5px ;
+}
+.center{
+    text-align: center;
+}
+
